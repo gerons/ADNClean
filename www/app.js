@@ -10,6 +10,10 @@ const loadPage = (page) => {
     }
 };
 
+const openMenu = () => {
+  document.querySelector('#menu').open();
+};
+
 function calcular(){
   var od = document.getElementById('od').value;
   var dilucion = document.getElementById('dilucion').value;

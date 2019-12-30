@@ -1,15 +1,14 @@
 <ons-page id="">
-    <script>
-        
-    </script>
-    <ons-toolbar>
-      <div class="left">
-          <ons-back-button></ons-back-button>
-      </div>
+    <ons-toolbar id="home-toolbar">
+        <div class="left">
+            <ons-toolbar-button onclick="openMenu()">
+                <ons-icon icon="md-menu"></ons-icon>
+            </ons-toolbar-button>
+        </div>
   
-      <div class="center">Analisis</div>
+        <div class="center">Inicio</div>
     </ons-toolbar>
-
+  
     <div style="text-align: center; margin-top: 40px;">
         <p>
           <ons-input id="od" modifier="underbar" type="number" placeholder="OD nm" float></ons-input>
