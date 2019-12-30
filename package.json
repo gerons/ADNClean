@@ -10,11 +10,7 @@
       "cordova-plugin-console": {},
       "cordova-plugin-statusbar": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   },
-  "dependencies": {
-    "cordova-android": "^8.1.0"
-  }
+  "dependencies": {}
 }
