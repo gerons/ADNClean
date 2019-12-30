@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+        <link rel="stylesheet" href="css/onsenui.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/onsen-css-components.min.css">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <ons-splitter>
+            <!-- el menu -->
+            <ons-splitter-side id="menu" page="menu.html" swipeable collapse></ons-splitter-side>
+            
+            <!-- el navigator -->
+            <ons-splitter-content>
+                <ons-navigator id="navigator" page="inicio.html"></ons-navigator>
+            </ons-splitter-content>
+        </ons-splitter>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/onsenui.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
